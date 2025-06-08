@@ -709,7 +709,7 @@ a {
 }
 
 :root {
-  --text-color-icons: #2e2f42;
+  --font-family: #2e2f42;
 }
 
 .modal-title {
@@ -721,7 +721,7 @@ a {
   text-align: center;
   color: var(--navy-blue);
   margin-bottom: 16px;
-  background-color: var(--text-color-icons);
+  /* background-color: var(--text-color-icons); */
 }
 
 .modal-field {
@@ -757,7 +757,7 @@ a {
 }
 
 :root {
-  --text-color-icons: #8e8f99;
+  --font-family: #8e8f99;
 }
 .modal-input-text {
   font-family: var(--font-family);
@@ -768,7 +768,7 @@ a {
   color: var(--light-slate);
   display: block;
   margin-bottom: 4px;
-  background-color: var(--text-color-icons);
+  /* background-color: var(--text-color-icons); */
 }
 
 .modal-input-icon {
@@ -815,7 +815,7 @@ a {
 }
 
 :root {
-  --text-color-icons: #8e8f99;
+  --font-family: #8e8f99;
 }
 
 .check-text {
@@ -824,7 +824,7 @@ a {
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
-  background-color: var(--text-color-icons);
+  /* background-color: var(--text-color-icons); */
 }
 
 .check-element {
@@ -844,10 +844,11 @@ a {
 }
 
 :root {
-  --text-color-icons: #4d5ae5;
+  --font-family: #4d5ae5;
 }
+
 .policy-link {
-  background-color: var(--text-color-icons);
+  font-family: var(--font-family);
 }
 
 .modal-check:checked + .check-text .check-element {
