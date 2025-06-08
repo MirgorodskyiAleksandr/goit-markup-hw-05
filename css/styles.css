@@ -719,9 +719,8 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2E2F42 
+  color: #2e2f42;
   margin-bottom: 16px;
-
 }
 
 .modal-field {
@@ -765,7 +764,7 @@ a {
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
-  color:  #4D5AE5;
+  color: #4d5ae5;
   display: block;
   margin-bottom: 4px;
 }
@@ -848,7 +847,7 @@ a {
 
 .policy-link {
   font-family: var(--font-family);
-  color:#4d5ae5;
+  color: #4d5ae5;
 }
 
 .modal-check:checked + .check-text .check-element {
