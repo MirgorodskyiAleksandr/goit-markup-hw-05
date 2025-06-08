@@ -756,16 +756,16 @@ a {
 }
 
 :root {
-  /* --font-family: #8e8f99; */
-  --text-color-label: #8e8f99;
+  --font-family: #8e8f99;
 }
+
 .modal-input-text {
-  /* font-family: var(--font-family); */
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: 0.04em;
-  color: var(--text-color-label);
+  color: #8e8f99;
   display: block;
   margin-bottom: 4px;
 }
